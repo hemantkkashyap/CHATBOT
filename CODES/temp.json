@@ -1,0 +1,240 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey", "greetings"],
+        "responses": ["Hi there! How can I assist you today?"]
+      },
+      {
+        "tag": "who_are_you",
+        "patterns": ["who are you", "what are you", "introduce yourself"],
+        "responses": ["I am a virtual assistant designed to help you with information and tasks."]
+      },
+      {
+        "tag": "rabbit",
+        "patterns": ["tell me about Rabbit", "what is Rabbit", "rabbit"],
+        "responses": ["Rabbit stands for: Responsive Artificial Being Built for Intelligent Task."]
+      },
+      {
+        "tag": "developer",
+        "patterns": ["who developed this website", "creator of this site", "development team"],
+        "responses": ["The developer of this website is Hemant Kashyap"]
+      },
+      {
+        "tag": "current_date",
+        "patterns": ["what is the current date", "tell me the date", "current date", "date"],
+        "responses": ["The current date is: {current_date}"]
+      },
+      {
+        "tag": "security",
+        "patterns": ["how is user data secured", "security features", "data protection"],
+        "responses": ["We ensure the security of your data through: {security_measures}"]
+      },
+      {
+        "tag": "responsive_design",
+        "patterns": ["is the website responsive", "device compatibility", "responsive design"],
+        "responses": ["Yes, the website is designed to be responsive across devices."]
+      },
+      {
+        "tag": "team_members",
+        "patterns": ["who are the team members", "project contributors", "team details"],
+        "responses": ["The team members are: {team_members}"]
+      },
+      {
+        "tag": "event_categories",
+        "patterns": ["what types of events are there", "categories of events", "event genres"],
+        "responses": ["We have events in categories such as: {event_categories}"]
+      },
+      {
+        "tag": "event_schedule",
+        "patterns": ["schedule of upcoming events", "event timetable", "event calendar"],
+        "responses": ["Here is the schedule for upcoming events: {event_schedule}"]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": ["what payment methods are accepted", "payment options", "accepted currencies"],
+        "responses": ["We accept payments through: {payment_methods}"]
+      },
+      {
+        "tag": "certificate_generation",
+        "patterns": ["how to get event certificates", "certificate generation process", "event attendance proof"],
+        "responses": ["You can obtain event certificates through: {certificate_generation_steps}"]
+      },
+      {
+        "tag": "cancel_registration",
+        "patterns": ["how to cancel event registration", "cancel participation", "unregister from event"],
+        "responses": ["To cancel event registration, follow: {cancel_registration_steps}"]
+      },
+      {
+        "tag": "event_feedback",
+        "patterns": ["how to provide event feedback", "submit feedback", "event review"],
+        "responses": ["You can submit event feedback through: {event_feedback_steps}"]
+      },
+      {
+        "tag": "popular_events",
+        "patterns": ["which events are most popular", "top-rated events", "trending events"],
+        "responses": ["Our most popular events include: {popular_events_list}"]
+      },
+      {
+        "tag": "event_participation_criteria",
+        "patterns": ["what are the criteria for event participation", "eligibility for events", "participation requirements"],
+        "responses": ["Event participation criteria include: {participation_criteria}"]
+      },
+      {
+        "tag": "event_sponsors",
+        "patterns": ["who are the sponsors for events", "event sponsorship details", "sponsors"],
+        "responses": ["Our event sponsors include: {event_sponsors}"]
+      },
+      {
+        "tag": "cancel_event",
+        "patterns": ["how to cancel an upcoming event", "event cancellation process", "canceling events"],
+        "responses": ["In case of event cancellation, we follow: {cancel_event_steps}"]
+      },
+      {
+        "tag": "faq",
+        "patterns": ["frequently asked questions", "common queries", "help center"],
+        "responses": ["Visit our FAQ section for answers to common queries: {faq_link}"]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": ["how to contact customer support", "support team contact", "customer assistance"],
+        "responses": ["You can reach our support team through: {support_contact_info}"]
+      },
+      {
+        "tag": "mobile_app",
+        "patterns": ["is there a mobile app", "mobile application", "app download"],
+        "responses": ["Yes, we have a mobile app! Download it here: {mobile_app_download_link}"]
+      },
+      {
+        "tag": "event_photos",
+        "patterns": ["where can I find event photos", "event galleries", "photo albums"],
+        "responses": ["Explore event photos in our gallery: {event_photos_link}"]
+      },
+      {
+        "tag": "social_media",
+        "patterns": ["are you on social media", "social media profiles", "follow on social platforms"],
+        "responses": ["Connect with us on social media: {social_media_links}"]
+      },
+      {
+        "tag": "unsubscribe",
+        "patterns": ["how to unsubscribe from updates", "unsubscribe from notifications", "opt-out"],
+        "responses": ["To unsubscribe, follow: {unsubscribe_steps}"]
+      },
+      {
+        "tag": "give_feedback",
+        "patterns": ["how to provide feedback on the system", "system improvement suggestions", "feedback channel"],
+        "responses": ["We value your feedback! Share it with us: {feedback_submission_link}"]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "give me a joke", "joke time", "humor me","jokes"],
+        "responses": ["Sure, here's a joke: {random_joke}"]
+      },
+      {
+        "tag": "fun_fact",
+        "patterns": ["share a fun fact", "tell me something interesting", "funfact"],
+        "responses": ["Did you know: {random_fun_fact}"]
+      },
+      {
+        "tag": "riddle",
+        "patterns": ["give me a riddle", "riddle me this", "challenge me with a riddle"],
+        "responses": ["Let's see if you can solve this riddle: {random_riddle}"]
+      },
+      {
+        "tag": "quote",
+        "patterns": ["inspire me with a quote", "give me a motivational quote", "quote of the day"],
+        "responses": ["Here's a quote for you: {random_quote}"]
+      },
+      {
+        "tag": "trivia",
+        "patterns": ["share trivia", "interesting trivia", "trivia time"],
+        "responses": ["Trivia time! Did you know: {random_trivia}"]
+      },
+      {
+        "tag": "sing",
+        "patterns": ["sing a song", "sing for me", "entertain me with a song"],
+        "responses": ["I'm not a great singer, but here's a song for you: {random_song_lyrics}"]
+      },
+      {
+        "tag": "movie_recommendation",
+        "patterns": ["recommend a movie", "suggest a film", "movie recommendation"],
+        "responses": ["How about watching '{random_movie}'?"]
+      },
+      {
+        "tag": "book_recommendation",
+        "patterns": ["recommend a book", "suggest a novel", "book recommendation"],
+        "responses": ["I suggest reading '{random_book}'."]
+      },
+      {
+        "tag": "tell_story",
+        "patterns": ["tell me a story", "share a story", "storytime"],
+        "responses": ["Once upon a time, in a land far away, there was a {random_story_character}."]
+      },
+      {
+        "tag": "poem",
+        "patterns": ["recite a poem", "poetry time", "share a poem"],
+        "responses": ["Here's a short poem for you: {random_poem}"]
+      },
+      {
+        "tag": "magic_8_ball",
+        "patterns": ["magic 8 ball", "ask the magic ball", "fortune teller"],
+        "responses": ["*Shakes the magic 8 ball*... It says: '{magic_8_ball_response}'"]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["give me a compliment", "compliment me", "boost my confidence"],
+        "responses": ["You're truly {random_compliment}!"]
+      },
+      {
+        "tag": "wisdom",
+        "patterns": ["share some wisdom", "wise words", "words of wisdom"],
+        "responses": ["In the words of the wise: {random_wisdom}"]
+      },
+      {
+        "tag": "hypothetical",
+        "patterns": ["what if", "hypothetical situation", "imagine this"],
+        "responses": ["What if {random_hypothetical_scenario}"]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": ["what's your favorite color", "favorite color", "color preference"],
+        "responses": ["I don't have a favorite color, but I like them all!"]
+      },
+      {
+        "tag": "celebrity_crush",
+        "patterns": ["who's your celebrity crush", "celebrity crush", "secret admirer"],
+        "responses": ["I admire the talent of {random_celebrity}."]
+      },
+      {
+        "tag": "time_pass",
+        "patterns": ["let's chat for fun", "boredom buster", "pass the time"],
+        "responses": ["Sure, let's chat! Ask me anything."]
+      },
+      {
+        "tag": "dog_fact",
+        "patterns": ["tell me something about dogs", "dog facts", "interesting dog information"],
+        "responses": ["Did you know: {random_dog_fact}"]
+      },
+      {
+        "tag": "cat_fact",
+        "patterns": ["tell me something about cats", "cat facts", "interesting cat information"],
+        "responses": ["Fun fact: {random_cat_fact}"]
+      },
+      {
+        "tag": "space_fact",
+        "patterns": ["share a space fact", "facts about the universe", "space trivia"],
+        "responses": ["Space is vast and mysterious! Here's a fact: {random_space_fact}"]
+      },
+      {
+        "tag": "food_recommendation",
+        "patterns": ["recommend a dish", "suggest something to eat", "food recommendation"],
+        "responses": ["How about trying {random_food_dish} for your next meal?"]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["*"],
+        "responses": ["I'm sorry, I didn't understand that."]
+      }
+    ]
+  }
+  

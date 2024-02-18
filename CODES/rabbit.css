@@ -1,0 +1,148 @@
+html,body{
+    padding: auto;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    background-color: rgb(249, 81, 81);
+    width: 60px;
+    height: 60px;
+}
+.Main .chat{
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    visibility: hidden;
+    opacity: 0;
+transition:0.5s;
+z-index: 1;
+}
+.showchat{
+    visibility: visible;
+    opacity: 1;
+}
+.Main .chat .head .close{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:5px;
+    top: 0;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.Main .chat .head{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 97.2%;
+    height: 13%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(249, 81, 81);
+}
+.Main .chat .head img{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.Main .chat .chatting{
+    overflow-y: auto;
+    width: 100%;
+    height: 80%;
+}
+.Main .chat .send{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(249, 81, 81);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Main .chat .send input{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+width: 70%;
+height: 80%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Main .chat .send #Send{
+    border: none;
+    border-radius: 10px;
+    background-color:orange;
+    width: 15%;
+    height: 80%;
+    }
+.Main .chat .send #start-mic{
+        border: none;
+        border-radius: 10px;
+        background-color:rgb(160, 160, 160);
+        width: 10%;
+        height: 70%;
+}
+.listening-message {
+    background-color: #F5F5F5;
+    color: #333;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.message {
+        margin: 5px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    
+    .bot-message {
+        background-color: #f2f2f2;
+        width: 50%;
+        clear: both; /* Clear the float so that the next element is below */
+    }
+    
+    .user-message {
+        background-color: #4CAF50;
+        color: white;
+        width: 50%;
+        float: right;
+        clear: both; /* Clear the float so that the next element is below */
+    }
+    @media only screen and (max-width: 600px) {
+        .Main .chat{
+            width: 100%;
+            height: 98%;
+            transform: translate(-50%,-52%);
+
+        }
+    }
+    

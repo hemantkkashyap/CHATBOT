@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "greetings"],
+      "responses": ["Hi there! How can I assist you today?"]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["who are you", "what are you", "introduce yourself"],
+      "responses": ["I am a virtual assistant designed to help you with information and tasks."]
+    },
+    {
+      "tag": "developer",
+      "patterns": ["who developed this website", "creator of this site", "development team","developer"],
+      "responses": ["The developer of this website is Hemant Kashyap"]
+    },
+    {
+      "tag": "current_date",
+      "patterns": ["what is the current date", "tell me the date", "current date", "date"],
+      "responses": ["The current date is: {current_date}"]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["how to contact customer support", "support team contact", "customer assistance","customercare"],
+      "responses": ["You can reach our support team through: +91 780-----53"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "give me a joke", "joke time", "humor me","jokes"],
+      "responses": ["Sure, here's a joke: {random_joke}"]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["share a fun fact", "tell me something interesting", "fact"],
+      "responses": ["Did you know: {random_fun_fact}"]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["inspire me with a quote", "give me a motivational quote", "quote of the day","quote"],
+      "responses": ["Here's a quote for you: {random_quote}"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["*"],
+      "responses": ["I'm sorry, I didn't understand that."]
+    }
+  ]
+}

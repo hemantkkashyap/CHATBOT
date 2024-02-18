@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/robot-icon-chat-bot-sign-support-service-concept-chatbot-character-flat-style_41737-796.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="rabbit.css">
+</head>
+<body>
+    
+
+<div class="Main">
+
+    <div class="chat">
+        <div class="head">
+            <div class="close" onclick="removechat()">
+                <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <img src="https://img.freepik.com/premium-vector/robot-icon-chat-bot-sign-support-service-concept-chatbot-character-flat-style_41737-796.jpg" alt="">
+            <p>CHATBOT</p>
+        </div>
+        <div id="chat-messages" class="chatting"></div>
+        <div class="send">
+            <input type="text" id="user-input" placeholder="Enter Text Here.." required>
+            <button id="start-mic"><i class="fa-solid fa-microphone fa-xl" style="color: #ffffff;"></i></button>
+            <button id="Send"  onclick="sendUserMessage()">
+                <i class="fa-regular fa-paper-plane fa-xl" style="color: #ffffff;"></i>
+            </button>
+        </div>
+    </div>
+    <div class="button" onclick="showchat()">
+        <i class="fa-solid fa-message fa-xl" style="color: #ffffff;"></i>
+    </div>
+</div>
+
+    <script  src="./rabbit.js"></script>
+   
+</body>
+</body>
+</html>

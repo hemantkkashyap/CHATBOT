@@ -1,0 +1,20 @@
+{
+    "facts": [
+      "HTML stands for HyperText Markup Language.",
+      "It is used for creating the structure of a webpage.",
+      "HTML5 is the latest version and comes with new features like native video and audio support.",
+      "CSS stands for Cascading Style Sheets.",
+      "It is used for styling and layout of web pages.",
+      "CSS3 introduced features like animations, transitions, and responsive design capabilities.",
+      "C is a general-purpose programming language created by Dennis Ritchie at Bell Labs in 1972.",
+      "It has a strong influence on many other programming languages, such as C++, C#, and Objective-C.",
+      "The Linux operating system kernel, many embedded systems, and various other applications are written in C.",
+      "C++ is an extension of the C programming language with object-oriented programming features.",
+      "It was developed by Bjarne Stroustrup at Bell Labs.",
+      "C++ is widely used in game development, system/software development, and embedded firmware.",
+      "Java was developed by James Gosling at Sun Microsystems and released in 1995.",
+      "It is known for its slogan 'Write Once, Run Anywhere' (WORA), meaning that compiled Java code can run on any device with Java support.",
+      "Java is widely used in web development, mobile application development (Android), and enterprise-level applications."
+    ]
+  }
+  
