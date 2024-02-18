@@ -28,7 +28,8 @@ Enhance your website experience with this custom-built chatbot! Quickly answer u
 
 ## Try It Out Now! 🔗
 
-[Link to Chatbot Demo](your-demo-link)
+[Link to Chatbot Demo]
+(https://hemantkkashyap.github.io/CHATBOT)
 
 Your feedback is invaluable! Feel free to open issues or contribute. Excited to continue evolving and improving this project! 🚀🌐
 
