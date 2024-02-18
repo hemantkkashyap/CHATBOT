@@ -1,6 +1,6 @@
 # Website Chatbot 🤖💬
 
-![Chatbot Demo](link-to-demo-gif-or-screenshot)
+![Chatbot Demo](https://hemantkkashyap.github.io/CHATBOT/)
 
 Enhance your website experience with this custom-built chatbot! Quickly answer user queries, provide real-time information, and add a touch of humor to engage your audience.
 
